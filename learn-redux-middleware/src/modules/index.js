@@ -1,9 +1,9 @@
 const { combineActions } = require('redux-actions');
 
-import { combineActions } from 'redux';
+import { combineReducers } from 'redux';
 import counter from './counter';
 
-const rootReducer = combineActions({
+const rootReducer = combineReducers({
 	counter,
 });
 
